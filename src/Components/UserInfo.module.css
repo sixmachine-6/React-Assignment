@@ -1,0 +1,52 @@
+@import "https://unpkg.com/leaflet@1.9.3/dist/leaflet.css";
+
+.infoBox {
+  height: 220px;
+  width: 87%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-light--2);
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  margin: 1rem 0 0 0;
+}
+
+.info {
+  text-align: center;
+  min-width: 300px;
+}
+
+.infoBox p {
+  background: white;
+  margin-top: 0.4rem;
+  box-shadow: 0 0 1px 0 rgb(0, 0, 0.2);
+  transition: all 0.3s ease-in;
+}
+
+.infoBox p:hover {
+  transform: scale(1.1);
+}
+
+.app::-webkit-scrollbar {
+  display: none;
+}
+
+.mapContainer {
+  box-shadow: 0 0 1rem 0 rgb(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+.map {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.img {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 0.5rem;
+  margin-right: 0.4rem;
+}

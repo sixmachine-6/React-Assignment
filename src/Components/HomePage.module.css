@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-medium);
+  padding: 1rem 8rem;
+  border-bottom: 3px solid var(--color-brand--1);
+}
+
+.nav i {
+  height: 38px;
+  width: 44px;
+  text-align: center;
+  padding-top: 0.5rem;
+  border-radius: 100%;
+  font-size: 3.25rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  text-decoration: none;
+  background: #eceece;
+  border: 2px solid var(--color-brand--1);
+}
+.nav i:hover {
+  transform: scale(1.1);
+}
+
+.nav div h3 {
+  position: relative;
+  left: 7rem;
+  font-family: "Codystar";
+  color: black;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.nav div input {
+  position: relative;
+  top: -0.7rem;
+  height: 35px;
+  width: 140px;
+  border-radius: 27px;
+  border: 2px solid var(--color-brand--1);
+  margin: 0 1.1rem;
+  background: rgb(236, 235, 235);
+  transition: all 0.3s ease-in;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.nav div input:hover {
+  transform: translateY(-3px);
+}
+
+.app {
+  padding: 2rem 8rem;
+  height: 82vh;
+  overscroll-behavior-y: none;
+  display: flex;
+  position: relative;
+  /* background: red; */
+}
+
+.sidebar {
+  flex-basis: 42rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  margin-left: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 0 0.5rem 0 rgb(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in;
+}
+
+.sidebar:hover {
+  transform: scale(1.009);
+}
+
+.sidebar div {
+  width: 100%;
+  position: relative;
+  top: -2rem;
+  display: flex;
+}
+
+.sidebar div h4 {
+  height: 25px;
+  width: 105px;
+  font-size: 1.75rem;
+  margin: 1rem 0;
+  padding: 0.2rem 0;
+  text-align: center;
+  border-radius: 6px 6px 0 0;
+}
+.sidebar div h4:nth-child(1) {
+  background: aqua;
+}
+.sidebar div h4:nth-child(2) {
+  background: lightskyblue;
+}
+.sidebar div h4:nth-child(3) {
+  background: papayawhip;
+}
+.sidebar div h4:nth-child(4) {
+  background: greenyellow;
+}

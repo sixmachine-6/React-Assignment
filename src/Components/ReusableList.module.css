@@ -1,0 +1,39 @@
+.list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  overflow: scroll;
+  margin: 10px 0;
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+.listItems {
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  min-width: 200px;
+  font-size: 1.25rem;
+  border-left: 2px solid var(--color-brand--2);
+  background: var(--color-light--2);
+  border-radius: 0 15px 15px 0;
+  margin-left: 1rem;
+  transition: all 0.3s ease-in;
+}
+
+.listItems:hover {
+  transform: scale(1.07);
+}
+
+.listItems h3 {
+  font-style: italic;
+  font-size: 1.4rem;
+  margin: 0.5rem;
+}
+
+.listItems p {
+  font-style: italic;
+  font-size: 1.1rem;
+}
